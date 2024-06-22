@@ -14,7 +14,5 @@ function App() {
  </div>
   )
 }
-handlebutton = (count) => {
-return(null)
-}
+
 export default App
