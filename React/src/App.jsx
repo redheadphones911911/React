@@ -8,8 +8,13 @@ function App() {
 
   return(
  <div>
-  <p>Hello</p>
+  <p>Type your name:</p>
+  <input type='text' /> 
+<button>Submit</button>
  </div>
   )
+}
+handlebutton = (count) => {
+return(null)
 }
 export default App
