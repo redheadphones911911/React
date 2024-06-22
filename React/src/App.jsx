@@ -9,7 +9,7 @@ function App() {
   return(
  <div>
   <p>Type your name:</p>
-  <input type='text' /> 
+  <input type='text'></input> 
 <button>Submit</button>
  </div>
   )
