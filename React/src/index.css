@@ -3,6 +3,7 @@
     height: 600px;
     border: 1px solid red;
     margin: auto;
+    display: flex;
     flex: flex-end;
 }
 button{
