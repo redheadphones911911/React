@@ -12,3 +12,6 @@ button{
     width: 75px;
     height: 75px;
 }
+#num3 , #num6{
+    display: block;
+}
