@@ -1,18 +1,33 @@
 #container{
-    width: 400px;
+    width: 450px;
     height: 600px;
     border: 1px solid red;
     margin: auto;
     display: flex;
     align-items: flex-end;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    
     
 }
 button{
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 60px;
+    margin: 5px 5px 5px 5px;
+
 }
-#num3 , #num6{
-    display: block;
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    flex-direction: row;
+
+
+}
+textarea{
+    margin-left: 20px;
+    margin-bottom: 200px;
 }
