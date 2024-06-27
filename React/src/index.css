@@ -1,4 +1,4 @@
-#container{
+.container{
     width: 450px;
     height: 600px;
     border: 1px solid red;
@@ -19,11 +19,15 @@ input{
 .wrapper{
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
     flex-wrap: wrap;
     flex-basis: 100%;
     flex-direction: row;
 
 
+}
+.display{
+    width: 120px;
+    height: 50px;
 }
