@@ -27,7 +27,9 @@ button{
 
 
 }
-textarea{
+input{
     margin-left: 20px;
     margin-bottom: 200px;
+    width: 120px;
+    height: 120px;
 }
