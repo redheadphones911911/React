@@ -7,18 +7,18 @@ function App() {
     const [value , setValue] = useState("");
     return(
         <div className='container'>
-            <input type='text' className='display'/>
+            <input type='text' className='display' value={value}/>
             <div className='wrapper'>
             <div>
             <input type='button' value={7} onClick={e  => { setValue(value + e.target.value)}}/>
-            <input type='button' value={8} />
-            <input type='button' value={9}/>
+            <input type='button' value={8} onClick={e => {setValue(value + e.target.value)}} />
+            <input type='button' value={9} onClick={e => {setValue(value + e.target.value)}}/>
             <input type='button' value={"DEL"} />
-            <input type='button' value={"AC"} />
+            <input type='button' value={"AC"} onClick={e => {setValue("")}} />
             </div>
             <div>
-            <input type='button' value={4} />
-            <input type='button' value={5}/>
+            <input type='button' value={4} onClick={e => {setValue(value + e.target.value)}} />
+            <input type='button' value={5} onClick={e => {setValue(value + e.target.value)}}/>
             <input type='button' value={6}/>
             <input type='button' value={"×"}/>
             <input type='button' value={"÷"}/>
