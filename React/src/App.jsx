@@ -10,7 +10,7 @@ function App() {
             <input type='text' className='display'/>
             <div className='wrapper'>
             <div>
-            <input type='button' value={7} />
+            <input type='button' value={7} onClick={e  => { setValue(value + e.target.value)}}/>
             <input type='button' value={8} />
             <input type='button' value={9}/>
             <input type='button' value={"DEL"} />
