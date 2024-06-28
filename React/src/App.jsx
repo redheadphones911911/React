@@ -34,7 +34,7 @@ function App() {
                 <input type='button' value={"0"} onClick={e => {setValue(value + e.target.value)}}/>
                 <input type='button' value={"."} onClick={e => {setValue(value + e.target.value)}}/>
                 <input type='button' value={"10"} onClick={e => {setValue(value + e.target.value)}}/>
-                <input type='button' value={"Ans"} onClick={setValue(value)}/>
+                <input type='button' value={"Ans"}/>
                 <input type='button' value={"="}/>
             </div>
             </div>
