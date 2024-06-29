@@ -7,7 +7,7 @@ function App() {
     const [value , setValue] = useState("");
     return(
         <div className='container'>
-            <input type='text' className='display' value={value}/>
+            <input type='text' className='display' value={value} readOnly/>
             <div className='wrapper'>
             <div>
             <input type='button' value={"7"} onClick={e  => { setValue(value + e.target.value)}}/>
